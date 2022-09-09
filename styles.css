@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --bg-color: hsl(226, 43%, 10%);
+    --single-section: hsl(246, 80%, 60%);
+    --single-section-bg: hsl(235, 46%, 20%);
+    --pale-blue: hsl(236, 100%, 87%);
+    --work-color: hsl(15, 100%, 70%);
+    --play-color: hsl(195, 74%, 62%);
+    --study-color: hsl(348, 100%, 68%);
+    --exercise-color: hsl(145, 58%, 55%);
+    --social-color: hsl(264, 64%, 52%);
+    --care-color: hsl(43, 84%, 65%);
+    --inner-card: hsl(235, 46%, 20%);
+}
+
+body {
+    width: min(100vw, 1440px);
+    font-size: 18px;
+    background-color: var(--bg-color);
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+
+.container {
+    width: 60%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    gap: 1rem;
+}
+
+/* FIRST SECTION */
+
+.single-section {
+    background-color: var(--single-section-bg);
+    width: 25%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.face-card {
+    height: 65%;
+    background-color: var(--single-section);
+    border-radius: inherit;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+small {
+    font-size: 11px;
+    font-weight: 300;
+    margin-top: 1.5rem;
+    color: var(--pale-blue);
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.face-card > img {
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+.duration {
+    font-size: 13px;
+    margin: 1rem 0 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20%;
+}
+
+.duration > small {
+    margin-top: .5rem;
+    font-size: 12px;
+    color: var(--pale-blue);
+}
+
+/* FIRST SECTION ENDS */
+/* SECOND SECTION(GRID) STARTS*/
+
+.grid-section {
+    width: 75%;
+    height: 100%;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.card {
+    width: 31.5%;
+    height: 47%;
+    position: relative;
+}
+
+.inner-card {
+    background-color: var(--inner-card);
+    width: 100%;
+    height: 80%;
+    border-radius: inherit;
+    position: absolute;
+    bottom: -0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin: 15px 20px;
+}
+
+.top-section > img {
+    width: inherit;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.time-duration {
+    margin: 15px 20px;
+}
+
+.time-duration > h1 {
+    font-size: 2.8rem;
+}
+
+.time-duration > small {
+    color: --pale-blue;
+}
+
+.orange {
+    background: url(./images/icon-work.svg);
+    background-color: var(--work-color);
+    background-position: right top;
+    background-repeat: no-repeat;
+    border-radius: inherit;
+}
+
+.blue {
+    background: url(./images/icon-play.svg);
+    background-color: var(--play-color);
+    background-position: right top;
+    background-repeat: no-repeat;
+    border-radius: inherit;
+}
+
+.red {
+    background: url(./images/icon-study.svg);
+    background-color: var(--study-color);
+    background-position: right top;
+    background-repeat: no-repeat;
+    border-radius: inherit;
+}
+
+.green {
+    background: url(./images/icon-exercise.svg);
+    background-color: var(--exercise-color);
+    background-position: right top;
+    background-repeat: no-repeat;
+    border-radius: inherit;
+}
+
+.purple {
+    background: url(./images/icon-social.svg);
+    background-color: var(--social-color);
+    background-position: right top;
+    background-repeat: no-repeat;
+    border-radius: inherit;
+}
+
+.yellow {
+    background: url(./images/icon-self-care.svg);
+    background-color: var(--care-color);
+    background-position: right top;
+    background-repeat: no-repeat;
+    border-radius: inherit;
+}
+
+/* SECOND SECTION ENDS */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
