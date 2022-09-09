@@ -19,6 +19,7 @@
     --social-color: hsl(264, 64%, 52%);
     --care-color: hsl(43, 84%, 65%);
     --inner-card: hsl(235, 46%, 20%);
+    --inner-card-hover: hsl(235, 45%, 61%);
 }
 
 body {
@@ -92,10 +93,21 @@ h1 {
     height: 20%;
 }
 
-.duration > small {
+.daily,
+.monthly {
     margin-top: .5rem;
     font-size: 12px;
-    color: var(--pale-blue);
+    color: var(--inner-card-hover);
+    cursor: pointer;
+}
+
+.weekly {
+    color: #fff;
+}
+
+.daily:hover,
+.monthly:hover {
+    color: #fff;
 }
 
 /* FIRST SECTION ENDS */
@@ -126,6 +138,11 @@ h1 {
     bottom: -0.5rem;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
+}
+
+.inner-card:hover {
+    background-color: var(--inner-card-hover);
 }
 
 .top-section {
