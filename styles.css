@@ -95,6 +95,7 @@ h1 {
 }
 
 .daily,
+.weekly,
 .monthly {
     margin-top: .5rem;
     font-size: 12px;
@@ -102,12 +103,8 @@ h1 {
     cursor: pointer;
 }
 
-.weekly {
-    color: #fff;
-    margin-top: .5rem;
-}
-
 .daily:hover,
+.weekly:hover,
 .monthly:hover {
     color: #fff;
 }
