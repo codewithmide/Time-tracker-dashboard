@@ -60,19 +60,19 @@ weekly.addEventListener("click", () => {
     let firstWeekly = "32hrs";
     let firstPrevWeek = "Last week - 36hrs";
 
-    let secondWeekly = "10hr"
+    let secondWeekly = "10hrs"
     let secondPrevWeek = "Last week - 8hrs";
 
-    let thirdWeekly = "4hr"
+    let thirdWeekly = "4hrs"
     let thirdPrevWeek = "Last week - 7hrs";
 
-    let fourthWeekly = "4hr"
+    let fourthWeekly = "4hrs"
     let fourthPrevWeek = "Last week - 5hrs";
 
-    let fifthWeekly = "5hr"
+    let fifthWeekly = "5hrs"
     let fifthPrevWeek = "Last week - 10hrs";
 
-    let sixthWeekly = "2hr"
+    let sixthWeekly = "2hrs"
     let sixthPrevWeek = "Last week - 2hrs";
 
     firstHour.innerHTML = firstWeekly;
@@ -102,19 +102,19 @@ monthly.addEventListener("click", () => {
     let firstmonthly = "103hrs";
     let firstPrevWeek = "Last week - 128hrs";
 
-    let secondmonthly = "23hr"
+    let secondmonthly = "23hrs"
     let secondPrevWeek = "Last week - 29hrs";
 
-    let thirdmonthly = "13hr"
+    let thirdmonthly = "13hrs"
     let thirdPrevWeek = "Last week - 19hrs";
 
-    let fourthmonthly = "11hr"
+    let fourthmonthly = "11hrs"
     let fourthPrevWeek = "Last week - 18hrs";
 
-    let fifthmonthly = "21hr"
+    let fifthmonthly = "21hrs"
     let fifthPrevWeek = "Last week - 23hrs";
 
-    let sixthmonthly = "7hr"
+    let sixthmonthly = "7hrs"
     let sixthPrevWeek = "Last week - 11hrs";
 
     firstHour.innerHTML = firstmonthly;
