@@ -283,8 +283,6 @@ h1 {
         justify-content: space-between;
     }
     .attribution {
-        position: absolute;
-        top: 0;
         text-align: center;
         width: 100%;
     }
