@@ -102,6 +102,7 @@ h1 {
     font-size: 12px;
     color: var(--inner-card-hover);
     cursor: pointer;
+    width: fit-content;
 }
 
 .daily:hover,
