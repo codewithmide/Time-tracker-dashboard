@@ -22,16 +22,16 @@ daily.addEventListener("click", () => {
     let secondPrevWeek = "Last week - 2hrs";
 
     let thirdDaily = "0hr"
-    let thirdPrevWeek = "Last week - 1hrs";
+    let thirdPrevWeek = "Last week - 1hr";
 
     let fourthDaily = "1hr"
-    let fourthPrevWeek = "Last week - 1hrs";
+    let fourthPrevWeek = "Last week - 1hr";
 
     let fifthDaily = "1hr"
     let fifthPrevWeek = "Last week - 3hrs";
 
     let sixthDaily = "0hr"
-    let sixthPrevWeek = "Last week - 1hrs";
+    let sixthPrevWeek = "Last week - 1hr";
 
     firstHour.innerHTML = firstDaily;
     firstPW.innerHTML = firstPrevWeek;
