@@ -14,7 +14,6 @@ const sixthPW = document.getElementById("sixth-prev-week");
 
 
 daily.addEventListener("click", () => {
-    daily.style.color = "white";
 
     let firstDaily = "5hrs";
     let firstPrevWeek = "Last week - 7hrs";
@@ -57,7 +56,6 @@ daily.addEventListener("click", () => {
 const weekly = document.getElementById("weekly");
 
 weekly.addEventListener("click", () => {
-    daily.style.color = "white";
 
     let firstWeekly = "32hrs";
     let firstPrevWeek = "Last week - 36hrs";
@@ -98,3 +96,42 @@ weekly.addEventListener("click", () => {
 
 
 const monthly = document.getElementById("monthly");
+
+monthly.addEventListener("click", () => {
+
+    let firstmonthly = "103hrs";
+    let firstPrevWeek = "Last week - 128hrs";
+
+    let secondmonthly = "23hr"
+    let secondPrevWeek = "Last week - 29hrs";
+
+    let thirdmonthly = "13hr"
+    let thirdPrevWeek = "Last week - 19hrs";
+
+    let fourthmonthly = "11hr"
+    let fourthPrevWeek = "Last week - 18hrs";
+
+    let fifthmonthly = "21hr"
+    let fifthPrevWeek = "Last week - 23hrs";
+
+    let sixthmonthly = "7hr"
+    let sixthPrevWeek = "Last week - 11hrs";
+
+    firstHour.innerHTML = firstmonthly;
+    firstPW.innerHTML = firstPrevWeek;
+
+    secondHour.innerHTML = secondmonthly;
+    secondPW.innerHTML = secondPrevWeek;
+
+    thirdHour.innerHTML = thirdmonthly;
+    thirdPW.innerHTML = thirdPrevWeek;
+
+    fourthHour.innerHTML = fourthmonthly;
+    fourthPW.innerHTML = fourthPrevWeek;
+
+    fifthHour.innerHTML = fifthmonthly;
+    fifthPW.innerHTML = fifthPrevWeek;
+
+    sixthHour.innerHTML = sixthmonthly;
+    sixthPW.innerHTML = sixthPrevWeek;
+});
